@@ -9,10 +9,7 @@ function App() {
       <h1>Avançando em React</h1>
       <ManageData />
       <ListRender />
-      <ManageData />
-      <ListRender />
-      <ManageData />
-      <ListRender />
+      
 
       {/*Imagem em public*/}
       <img src="/dom-8429773_1280.jpg" alt="Paisagem" />
