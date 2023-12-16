@@ -8,7 +8,10 @@ function App() {
     <div className="App">
       <h1>Avançando em React</h1>
       <ManageData />
-
+      <ListRender />
+      <ManageData />
+      <ListRender />
+      <ManageData />
       <ListRender />
 
       {/*Imagem em public*/}
