@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0px 20px;
+}
+
+h1 {
+  line-height: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.red-title {
+  background: rgba(245, 65, 89, 0.767);
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.title {
+  background: rgba(65, 245, 170, 0.623);
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
