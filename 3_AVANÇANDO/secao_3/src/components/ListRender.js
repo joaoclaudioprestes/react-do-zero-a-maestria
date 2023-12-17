@@ -6,6 +6,7 @@ const ListRender = () => {
   const [users, setUsers] = useState([
     { id: 1, name: "João", age: 18 },
     { id: 2, name: "Matheus", age: 34 },
+    { id: 3, name: "David", age: 56 },
   ]);
 
   const deleteRadom = () => {
@@ -23,6 +24,7 @@ const ListRender = () => {
           <li key={index}>{item}</li>
         ))}
       </ul>
+      {/*Método abaixo e sempre o mais utilizando...*/}
       <ul>
         {users.map((item) => (
           <li key={item.id}>
