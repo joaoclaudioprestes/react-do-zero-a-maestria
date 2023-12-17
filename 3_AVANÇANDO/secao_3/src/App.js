@@ -11,6 +11,7 @@ import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
 import Message from './components/Message';
 import ChangeMessageState from './components/ChangeMessageState';
+import UserDetails from './components/UserDetails';
 
 function App() {
   const name = "João"
@@ -22,10 +23,17 @@ function App() {
     { id: "4", brand: "Renault", color: "Verde", newCar: false },
   ]
 
+  const users = [
+    { id: "1", name: "João", age: 23, profession: "Programador" },
+    { id: "2", name: "Matheus", age: 34, profession: "Bombeiro" },
+    { id: "3", name: "Margaret", age: 43, profession: "CEO" },
+    { id: "4", name: "Felipe", age: 17, profession: "Estudante" },
+  ]
+
   function showMessage() {
     console.log("Evento de componente pai!")
   }
-  
+
   const [message, setMessage] = useState("")
 
   const hadleMessage = (msg) => {
@@ -60,10 +68,14 @@ function App() {
         <p>O contúdo do filho!</p>
       </Container>
       {/* Executar função */}
-      <ExecuteFunction myFunction={showMessage}/>
+      <ExecuteFunction myFunction={showMessage} />
       {/* State lif*/}
-      <Message message={message}/>
-      <ChangeMessageState handleMessage={hadleMessage} />
+      <Message message={message} />
+      <ChangeMessageState hadleMessage={hadleMessage} />
+      {/* Desafio 4*/}
+      {users.map((user) => (
+        <UserDetails key={user.id} name={user.name} age={user.age} profession={user.profession} />
+      ))}
     </div>
   );
 }
