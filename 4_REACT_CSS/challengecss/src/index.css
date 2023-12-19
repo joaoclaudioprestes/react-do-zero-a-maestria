@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  background: #1111;
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.containerCars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 90vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
