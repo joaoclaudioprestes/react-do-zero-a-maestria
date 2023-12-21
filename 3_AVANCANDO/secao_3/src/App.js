@@ -76,6 +76,12 @@ function App() {
       {users.map((user) => (
         <UserDetails key={user.id} name={user.name} age={user.age} profession={user.profession} />
       ))}
+      {users.map((user) => (
+        <UserDetails key={user.id} name={user.name} age={user.age} profession={user.profession} />
+      ))}
+      {users.map((user) => (
+        <UserDetails key={user.id} name={user.name} age={user.age} profession={user.profession} />
+      ))}
     </div>
   );
 }

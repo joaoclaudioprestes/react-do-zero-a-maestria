@@ -15,6 +15,12 @@ function App() {
       <TemplateExpressions />
       <Events />
       <Challenge />
+
+      <MyComponents />
+      <FirstComponent />
+      <TemplateExpressions />
+      <Events />
+      <Challenge />
     </>
   );
 }
