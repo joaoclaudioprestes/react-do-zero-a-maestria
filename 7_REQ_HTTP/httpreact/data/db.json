@@ -1,0 +1,101 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Camisa",
+            "price": 59.9,
+            "description": "Camisa de algodão de alta qualidade.",
+            "category": "Roupas",
+            "brand": "FashionStyle",
+            "colors": [
+                "Branco",
+                "Preto",
+                "Azul"
+            ],
+            "sizes": [
+                "P",
+                "M",
+                "G"
+            ],
+            "stock": 100
+        },
+        {
+            "id": 2,
+            "name": "Calça vermelha",
+            "price": 90,
+            "description": "Calça vermelha moderna e confortável.",
+            "category": "Roupas",
+            "brand": "UrbanChic",
+            "colors": [
+                "Vermelho",
+                "Azul",
+                "Verde"
+            ],
+            "sizes": [
+                "P",
+                "M",
+                "G",
+                "GG"
+            ],
+            "stock": 75
+        },
+        {
+            "id": 3,
+            "name": "Boné aba reta",
+            "price": 29.9,
+            "description": "Boné estiloso com aba reta.",
+            "category": "Acessórios",
+            "brand": "StreetFlex",
+            "colors": [
+                "Preto",
+                "Branco",
+                "Cinza"
+            ],
+            "sizes": [
+                "Único"
+            ],
+            "stock": 120
+        },
+        {
+            "id": 4,
+            "name": "Tênis esportivo",
+            "price": 129.99,
+            "description": "Tênis confortável para atividades esportivas.",
+            "category": "Calçados",
+            "brand": "ActiveRun",
+            "colors": [
+                "Azul",
+                "Preto",
+                "Rosa"
+            ],
+            "sizes": [
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40"
+            ],
+            "stock": 50
+        },
+        {
+            "id": 5,
+            "name": "Mochila resistente",
+            "price": 79.9,
+            "description": "Mochila durável para uso diário.",
+            "category": "Acessórios",
+            "brand": "AdventureGear",
+            "colors": [
+                "Verde",
+                "Cinza",
+                "Azul"
+            ],
+            "sizes": [
+                "Pequena",
+                "Média",
+                "Grande"
+            ],
+            "stock": 60
+        }
+    ]
+}
