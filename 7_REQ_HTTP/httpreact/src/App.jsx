@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 // 4 - custom hook
 import { useFetch } from "./hooks/useFetch";
