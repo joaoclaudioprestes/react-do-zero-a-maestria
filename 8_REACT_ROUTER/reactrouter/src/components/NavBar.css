@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    background: #eee;
+    border-radius: 10px;
+    width: 100px;
+}
